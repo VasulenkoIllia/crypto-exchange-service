@@ -1,0 +1,29 @@
+{
+  "name": "crypto-exchange-service",
+  "version": "1.0.0",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "dev": "nodemon src/app.ts"
+  },
+  "dependencies": {
+    "@uniswap/sdk-core": "^7.5.0",
+    "@uniswap/v2-sdk": "^4.13.0",
+    "axios": "^1.7.9",
+    "decimal.js": "^10.5.0",
+    "dotenv": "^16.4.7",
+    "env": "^0.0.2",
+    "ethers": "^5.7.2",
+    "express": "^4.21.2",
+    "graphql-request": "^7.1.2",
+    "ws": "7.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.17.19",
+    "@types/ws": "^8.5.14",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.7.3"
+  }
+}
